@@ -1,0 +1,11 @@
+@mixin blueButtons ($padding) {
+  background-color: #337ab7;
+  border-radius: 40px;
+  padding: $padding;
+}
+@mixin title ($margin) {
+  font-weight: 200;
+  font-size: 35px;
+  text-align: center;
+  margin: $margin;
+}

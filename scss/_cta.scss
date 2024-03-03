@@ -1,0 +1,35 @@
+/* CTA section */
+.cta{
+  .cta__container{
+    padding: 40px 0;
+    .cta__block{
+      img{
+        height: 45px;
+        width: auto;
+      }
+      h3{
+        font-size: 16px;
+        font-weight: 600;
+        padding: 7px 0;
+      }
+      a{
+        color: #ffffff;
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media (max-width: 730px) {
+  .cta{
+    .cta__container {
+      flex-wrap: wrap;
+      .cta__block {
+        flex: 0 1 50%;
+        margin-bottom: 20px;
+        a{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

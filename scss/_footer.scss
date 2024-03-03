@@ -1,0 +1,29 @@
+/* Footer section*/
+footer {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+  text-align: center;
+
+  p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #70a8e5;
+
+    a {
+      color: $fontBasic;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    padding: 20px 0;
+
+    p {
+      a {
+        font-size: 12px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
